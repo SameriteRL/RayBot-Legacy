@@ -4,4 +4,4 @@ A highly experimental and moderately useful Discord bot, made within the span of
 
 Version
 -------
-Built for Discord.py version 1.7.3.
+Built for discord.py 1.7.3.
