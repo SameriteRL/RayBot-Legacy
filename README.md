@@ -1,3 +1,7 @@
 # RayBot
 
-A highly experimental, solo quarantine project. Built for Discord.py version 1.7.3.
+A highly experimental and moderately useful Discord bot, made within a couple months during the initial COVID quarantine.
+
+Version
+-------
+Built for discord.py 1.7.3.
