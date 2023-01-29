@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import random
-from moods import responses, rareResponses
+# from moods import responses, rareResponses
 
 #Filters strings so only lowercase letters remain
 def letterOnly(message):
@@ -15,11 +15,6 @@ class OtherCommands(commands.Cog):
     @commands.command(description='Ping pong!')
     async def ping(self, ctx):
         await ctx.send('Pong!')
-    
-    @commands.command(description='Cum!')
-    async def cum(self, ctx):
-        await ctx.send('Cum!')
-    
     
     @commands.command(description='Flip a coin!', aliases=['flipcoin'])
     async def coinflip(self, ctx):
@@ -65,12 +60,12 @@ class OtherCommands(commands.Cog):
         if isinstance(error, commands.MissingRequiredArgument):
             await ctx.send('Specify a start and end range.')
     
-    @commands.command(description='Ask about my current mood! I get mood swings a lot.', aliases=['feeling', 'moods'])
-    async def mood(self, ctx):
-        if random.random() < 0.9:
-            await ctx.send(responses[random.randrange(0, len(responses))])
-        else:
-            await ctx.send(rareResponses[random.randrange(0, len(rareResponses))])
+    # @commands.command(description='Ask about my current mood! I get mood swings a lot.', aliases=['feeling', 'moods'])
+    # async def mood(self, ctx):
+    #     if random.random() < 0.9:
+    #         await ctx.send(responses[random.randrange(0, len(responses))])
+    #     else:
+    #         await ctx.send(rareResponses[random.randrange(0, len(rareResponses))])
     
     # @commands.command()
     # async def avatar(self, ctx, member:discord.Member):
