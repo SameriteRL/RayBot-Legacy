@@ -1,6 +1,6 @@
 # RayBot
 
-A highly experimental and moderately useful Discord bot, created initially as a mandatory freeform project in senior year of high school. Formerly QuestBot.
+A highly experimental and somewhat useful Discord bot aimed for general-purpose, created initially as a freestyle project in senior year of high school. Formerly known as QuestBot.
 
 Version
 -------
